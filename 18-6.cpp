@@ -34,6 +34,8 @@ int main() {
     A.push_back(3);
     A.push_back(6);
 
+    // Use sort to reduce the time complexity
+    sort(A.begin(), A.end());
     cout << threeCreate(A, 8) << endl;
     return 0;
 }
